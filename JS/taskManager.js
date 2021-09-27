@@ -18,8 +18,6 @@ class TaskManager {
             date: date
         };
         this._tasks.push(newTask);
-
-
     }
 
     get tasks(){

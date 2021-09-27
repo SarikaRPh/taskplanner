@@ -106,8 +106,8 @@ event.preventDefault();
       console.log("Task Name :" + myName.value);
       console.log("Task Description :" + floatingTextarea2.value);
       console.log("Task Assigned To :" + assign.value);
-      console.log("Task Due Date :" + status1.value);
-      console.log("Task Status:" + date.value);
+      console.log("Task Status :" + status1.value);
+      console.log("Task Due Date:" + date.value);
       taskManager.addTask(
         myName.value,
         floatingTextarea2.value,
@@ -116,7 +116,7 @@ event.preventDefault();
         date.value
       );
      clearFormFields();
-      //$("#exampleModal").modal("hide");
+      $("#exampleModal").modal("hide");
     }
       
      
